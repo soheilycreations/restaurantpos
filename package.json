@@ -1,0 +1,16 @@
+{
+  "name": "restaurant-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "concurrently \"pnpm --filter api dev\" \"pnpm --filter pos dev\" \"pnpm --filter web dev\" \"pnpm --filter admin dev\"",
+    "lint": "turbo run lint",
+    "db:generate": "turbo run db:generate"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@9.0.0"
+}

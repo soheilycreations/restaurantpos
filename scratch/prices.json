@@ -1,0 +1,3658 @@
+[
+  {
+    "Code": "100",
+    "Product name": "Vegetable Soup ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 6400,
+    "Tax": ""
+  },
+  {
+    "Code": "101",
+    "Product name": "Chicken Soup ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 9600,
+    "Tax": ""
+  },
+  {
+    "Code": "120",
+    "Product name": "Rice & Curry - Veg.",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 6240,
+    "Tax": ""
+  },
+  {
+    "Code": "120L",
+    "Product name": " Vegitable    ( large)   Rice & curry",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 350,
+    "Tax": ""
+  },
+  {
+    "Code": "121",
+    "Product name": "Rice & Curry - Fish ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 7840,
+    "Tax": ""
+  },
+  {
+    "Code": "121L",
+    "Product name": "Malu Ambulthiyal - Optional -Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12800,
+    "Tax": ""
+  },
+  {
+    "Code": "122",
+    "Product name": "Rice & Curry - Chicken ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 7840,
+    "Tax": ""
+  },
+  {
+    "Code": "122L",
+    "Product name": "Chicken - (large )Rice & curry   ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12000,
+    "Tax": ""
+  },
+  {
+    "Code": "123",
+    "Product name": "Rice & Curry - Egg",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 6880,
+    "Tax": ""
+  },
+  {
+    "Code": "123L",
+    "Product name": "Egg - Sri Lankan Omlette - (Optinal) -Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12800,
+    "Tax": ""
+  },
+  {
+    "Code": "142R",
+    "Product name": "Fried Rice - Chicken (Samba) R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12000,
+    "Tax": ""
+  },
+  {
+    "Code": "142L",
+    "Product name": "Fried Rice - Chicken (Samba) L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 18400,
+    "Tax": ""
+  },
+  {
+    "Code": "141R",
+    "Product name": "Fried Rice - Fish (Samba) R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 13600,
+    "Tax": ""
+  },
+  {
+    "Code": "141L",
+    "Product name": "Fried Rice - Fish (Samba) L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 20000,
+    "Tax": ""
+  },
+  {
+    "Code": "140RD",
+    "Product name": "Fried Rice - Egg (Samba) RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 10560,
+    "Tax": "10%"
+  },
+  {
+    "Code": "140L",
+    "Product name": "Fried Rice - Egg (Samba) L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 16000,
+    "Tax": ""
+  },
+  {
+    "Code": "143R",
+    "Product name": "Fried Rice - Vegetable (Samba) R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 8000,
+    "Tax": ""
+  },
+  {
+    "Code": "143L",
+    "Product name": "Fried Rice - Vegetable (Samba) L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 13600,
+    "Tax": ""
+  },
+  {
+    "Code": "144R",
+    "Product name": "Fried Rice - Seafood (Samba) R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 17600,
+    "Tax": ""
+  },
+  {
+    "Code": "144L",
+    "Product name": "Fried Rice - Seafood (Samba) L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 29600,
+    "Tax": ""
+  },
+  {
+    "Code": "145R",
+    "Product name": "Fried Rice - Mixed (Samba) R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19200,
+    "Tax": ""
+  },
+  {
+    "Code": "145L",
+    "Product name": "Fried Rice - Mixed (Samba) L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 31200,
+    "Tax": ""
+  },
+  {
+    "Code": "161",
+    "Product name": "Set Menu Fried Rice - Egg",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12000,
+    "Tax": ""
+  },
+  {
+    "Code": "161L",
+    "Product name": "Fried Rice Basmati - Fish -Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 34400,
+    "Tax": ""
+  },
+  {
+    "Code": "170",
+    "Product name": "FRIED RICE BUDGET PACK - STD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24000,
+    "Tax": ""
+  },
+  {
+    "Code": "182L",
+    "Product name": "Nasi Goreng Rice - Chicken L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 28000,
+    "Tax": ""
+  },
+  {
+    "Code": "182R",
+    "Product name": "Nasi Goreng Rice - Chicken R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 20000,
+    "Tax": ""
+  },
+  {
+    "Code": "192R",
+    "Product name": "Mongolian Rice - Chicken R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 20000,
+    "Tax": ""
+  },
+  {
+    "Code": "192L",
+    "Product name": "Mongolian Rice - Chicken L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 28000,
+    "Tax": ""
+  },
+  {
+    "Code": "194R",
+    "Product name": "Mogolian Rice - Sea Food R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 22400,
+    "Tax": ""
+  },
+  {
+    "Code": "194L",
+    "Product name": "Mogolian Rice - Sea Food L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 32000,
+    "Tax": ""
+  },
+  {
+    "Code": "195R",
+    "Product name": "Mongolian Rice - Mixed R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24000,
+    "Tax": ""
+  },
+  {
+    "Code": "195L",
+    "Product name": "Mongolian Rice - Mixed L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 35200,
+    "Tax": ""
+  },
+  {
+    "Code": "200",
+    "Product name": "Pot Biryani Chicken - R . (For 2 People)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 28800,
+    "Tax": ""
+  },
+  {
+    "Code": "201",
+    "Product name": "Pot Biryani Chicken - L. (For 4 People)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 56000,
+    "Tax": ""
+  },
+  {
+    "Code": "202",
+    "Product name": "Dum Biryani - Fish -Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 0,
+    "Tax": ""
+  },
+  {
+    "Code": "202L",
+    "Product name": "Dum Biryani - Fish -Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 0,
+    "Tax": ""
+  },
+  {
+    "Code": "203",
+    "Product name": "Dum Biryani - Chicken (Regular)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 20640,
+    "Tax": ""
+  },
+  {
+    "Code": "203L",
+    "Product name": "Dum Biryani - Chicken-Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 0,
+    "Tax": ""
+  },
+  {
+    "Code": "204",
+    "Product name": "Dum Biryani - Prawns (Regular)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 30400,
+    "Tax": ""
+  },
+  {
+    "Code": "204L",
+    "Product name": "Dum Biryani - Prawns -Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 29600,
+    "Tax": ""
+  },
+  {
+    "Code": "205",
+    "Product name": "Dum Biryani - Vegitable-Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 0,
+    "Tax": ""
+  },
+  {
+    "Code": "205L",
+    "Product name": "Dum Biryani - Vegitable-Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 13600,
+    "Tax": ""
+  },
+  {
+    "Code": "206",
+    "Product name": "Dum Biryani  Sawan - Chicken (Serve 4)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 64000,
+    "Tax": ""
+  },
+  {
+    "Code": "207",
+    "Product name": "Dum Biryani  Sawan - Fish (Serve 4)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 72000,
+    "Tax": ""
+  },
+  {
+    "Code": "208",
+    "Product name": "Dum Biryani  Sawan - Prawns (Serve 4)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 74400,
+    "Tax": ""
+  },
+  {
+    "Code": "209",
+    "Product name": "Dum Biryani  Sawan - Chicken (Serve 8)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 120000,
+    "Tax": ""
+  },
+  {
+    "Code": "210",
+    "Product name": "Dum Biryani  Sawan - Fish (Serve 8)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 137440,
+    "Tax": ""
+  },
+  {
+    "Code": "211",
+    "Product name": "Dum Biryani  Sawan - Sea Food (Serve 8)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 153440,
+    "Tax": ""
+  },
+  {
+    "Code": "220R",
+    "Product name": "Kottu - Egg R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 10400,
+    "Tax": ""
+  },
+  {
+    "Code": "220L",
+    "Product name": "Kottu - Egg L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 15200,
+    "Tax": ""
+  },
+  {
+    "Code": "221R",
+    "Product name": "Kottu - Fish R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 14400,
+    "Tax": ""
+  },
+  {
+    "Code": "221L",
+    "Product name": "Kottu - Fish L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 21600,
+    "Tax": ""
+  },
+  {
+    "Code": "222R",
+    "Product name": "Kottu - Chicken R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 13600,
+    "Tax": ""
+  },
+  {
+    "Code": "222L",
+    "Product name": "Kottu - Chicken L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 20000,
+    "Tax": ""
+  },
+  {
+    "Code": "223",
+    "Product name": "Kottu - Chicken With Cheese. R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 20800,
+    "Tax": ""
+  },
+  {
+    "Code": "223L",
+    "Product name": "Kottu - Chicken With Cheese L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 33600,
+    "Tax": ""
+  },
+  {
+    "Code": "224R",
+    "Product name": "Kottu - Vegetable R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 9600,
+    "Tax": ""
+  },
+  {
+    "Code": "224L",
+    "Product name": "Kottu - Vegetable L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 13600,
+    "Tax": ""
+  },
+  {
+    "Code": "225R",
+    "Product name": "Kottu  - Seafood R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 21600,
+    "Tax": ""
+  },
+  {
+    "Code": "225L",
+    "Product name": "Kottu  - Seafood L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 33600,
+    "Tax": ""
+  },
+  {
+    "Code": "226R",
+    "Product name": "Kottu - Doldphin (Real Fried) R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 20000,
+    "Tax": ""
+  },
+  {
+    "Code": "226L",
+    "Product name": "Kottu - Doldphin (Real Fried)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 31200,
+    "Tax": ""
+  },
+  {
+    "Code": "240R",
+    "Product name": "Chicken - Devilled. R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19200,
+    "Tax": ""
+  },
+  {
+    "Code": "240L",
+    "Product name": "Chicken - Devilled ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 32000,
+    "Tax": ""
+  },
+  {
+    "Code": "241R",
+    "Product name": "Chicken - Fried R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 17600,
+    "Tax": ""
+  },
+  {
+    "Code": "241L",
+    "Product name": "Chicken - Fried L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 30400,
+    "Tax": ""
+  },
+  {
+    "Code": "242",
+    "Product name": "Chicken - Sambal. R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 16000,
+    "Tax": ""
+  },
+  {
+    "Code": "242L",
+    "Product name": "Chicken - Sambal",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 28000,
+    "Tax": ""
+  },
+  {
+    "Code": "243R",
+    "Product name": "Chicken - Stew R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 17600,
+    "Tax": ""
+  },
+  {
+    "Code": "243L",
+    "Product name": "Chicken - Stew L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 28800,
+    "Tax": ""
+  },
+  {
+    "Code": "244R",
+    "Product name": "Sausages - Devilled R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 17600,
+    "Tax": ""
+  },
+  {
+    "Code": "244LD",
+    "Product name": "Sausages - Devilled LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 31504,
+    "Tax": "10%"
+  },
+  {
+    "Code": "260R",
+    "Product name": "Fish - Devilled R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 25600,
+    "Tax": ""
+  },
+  {
+    "Code": "260L",
+    "Product name": "Fish - Devilled L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 44640,
+    "Tax": ""
+  },
+  {
+    "Code": "261",
+    "Product name": "Fish - Hot butter Sauced. R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 28800,
+    "Tax": ""
+  },
+  {
+    "Code": "261L",
+    "Product name": "Fish - Hot butter Sauced",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 49600,
+    "Tax": ""
+  },
+  {
+    "Code": "262R",
+    "Product name": "Fish - Stew R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 27200,
+    "Tax": ""
+  },
+  {
+    "Code": "262L",
+    "Product name": "Fish - Stew L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 46400,
+    "Tax": ""
+  },
+  {
+    "Code": "312",
+    "Product name": "Fried Fish - (with Salt Pepper & Onions (1Kg)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 84000,
+    "Tax": ""
+  },
+  {
+    "Code": "280R",
+    "Product name": "Prawns - Devilled R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 28000,
+    "Tax": ""
+  },
+  {
+    "Code": "280L",
+    "Product name": "Prawns - Devilled L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 48000,
+    "Tax": ""
+  },
+  {
+    "Code": "281",
+    "Product name": "Prawns - Batter Fried",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 26400,
+    "Tax": ""
+  },
+  {
+    "Code": "281L",
+    "Product name": "Prawns - Batter Fried",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 45600,
+    "Tax": ""
+  },
+  {
+    "Code": "282",
+    "Product name": "Prawns - with hot butter Sauce",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 31200,
+    "Tax": ""
+  },
+  {
+    "Code": "282L",
+    "Product name": "Prawns - with hot butter Sauce",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 55840,
+    "Tax": ""
+  },
+  {
+    "Code": "283",
+    "Product name": "Prawns - Stew",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 29600,
+    "Tax": ""
+  },
+  {
+    "Code": "283L",
+    "Product name": "Prawns - Stew",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 52640,
+    "Tax": ""
+  },
+  {
+    "Code": "300",
+    "Product name": "Cuttlefish - Devilled",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 25440,
+    "Tax": ""
+  },
+  {
+    "Code": "300L",
+    "Product name": "Cuttlefish - Devilled",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 44000,
+    "Tax": ""
+  },
+  {
+    "Code": "301",
+    "Product name": "Cuttlefish with Hot butter Sauce -Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 28640,
+    "Tax": ""
+  },
+  {
+    "Code": "301L",
+    "Product name": "Cuttlefish with Hot butter Sauce -Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 49600,
+    "Tax": ""
+  },
+  {
+    "Code": "302RD",
+    "Product name": "Cuttlefish - Batter Fried. RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 26224,
+    "Tax": "10%"
+  },
+  {
+    "Code": "302L",
+    "Product name": "Cuttlefish - Batter Fried",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 41440,
+    "Tax": ""
+  },
+  {
+    "Code": "303",
+    "Product name": "Cuttlefish - Stew. R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 25440,
+    "Tax": ""
+  },
+  {
+    "Code": "303L",
+    "Product name": "Cuttlefish - Stew",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 44640,
+    "Tax": ""
+  },
+  {
+    "Code": "320",
+    "Product name": "Sri Lankan Spicy Omelette -Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 9600,
+    "Tax": ""
+  },
+  {
+    "Code": "320L",
+    "Product name": "Sri Lankan Spicy Omelette -Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 0,
+    "Tax": ""
+  },
+  {
+    "Code": "321",
+    "Product name": "Sausage Omelette -Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12000,
+    "Tax": ""
+  },
+  {
+    "Code": "321L",
+    "Product name": "Sausage Omelette -Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 0,
+    "Tax": ""
+  },
+  {
+    "Code": "322",
+    "Product name": "Chicken Omelette -Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12000,
+    "Tax": ""
+  },
+  {
+    "Code": "322L",
+    "Product name": "Chicken Omelette -Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 22400,
+    "Tax": ""
+  },
+  {
+    "Code": "323",
+    "Product name": "Seafood Omelette-Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 15200,
+    "Tax": ""
+  },
+  {
+    "Code": "323L",
+    "Product name": "Seafood Omelette-Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 0,
+    "Tax": ""
+  },
+  {
+    "Code": "324",
+    "Product name": "Cheese Omelette -Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 14400,
+    "Tax": ""
+  },
+  {
+    "Code": "324L",
+    "Product name": "Cheese Omelette -Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 25440,
+    "Tax": ""
+  },
+  {
+    "Code": "340",
+    "Product name": "Vegetable Chop Suey-Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 9600,
+    "Tax": ""
+  },
+  {
+    "Code": "340L",
+    "Product name": "Vegetable Chop Suey-Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 15840,
+    "Tax": ""
+  },
+  {
+    "Code": "341",
+    "Product name": "Boilled Vegetables -Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 9600,
+    "Tax": ""
+  },
+  {
+    "Code": "313",
+    "Product name": "Party Mix - (Fried Chicken,Fish & Cut Green Apple) 1kg",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 72000,
+    "Tax": ""
+  },
+  {
+    "Code": "342",
+    "Product name": "French Fries -Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 11040,
+    "Tax": ""
+  },
+  {
+    "Code": "342L",
+    "Product name": "French Fries -Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19200,
+    "Tax": ""
+  },
+  {
+    "Code": "343",
+    "Product name": "Devilled Soya -Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 11040,
+    "Tax": ""
+  },
+  {
+    "Code": "343L",
+    "Product name": "Devilled Soya -Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19200,
+    "Tax": ""
+  },
+  {
+    "Code": "344",
+    "Product name": "Devilled Mushroom-Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12640,
+    "Tax": ""
+  },
+  {
+    "Code": "344L",
+    "Product name": "Devilled Mushroom-Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 20800,
+    "Tax": ""
+  },
+  {
+    "Code": "345",
+    "Product name": "Mushroom with Hot Butter Sauce-Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 0,
+    "Tax": ""
+  },
+  {
+    "Code": "345L",
+    "Product name": "Mushroom with Hot Butter Sauce-Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 28800,
+    "Tax": ""
+  },
+  {
+    "Code": "346",
+    "Product name": "Fried Cashew Nut With Garlic-Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 23840,
+    "Tax": ""
+  },
+  {
+    "Code": "346L",
+    "Product name": "Fried Cashew Nut With Garlic-Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 42400,
+    "Tax": ""
+  },
+  {
+    "Code": "360",
+    "Product name": "Spring Rolls - Vegetable",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2000,
+    "Tax": ""
+  },
+  {
+    "Code": "361",
+    "Product name": "Jumbo Minky Rolls - Chicken ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 3200,
+    "Tax": ""
+  },
+  {
+    "Code": "362",
+    "Product name": "Chilly Checken Shawarma ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 3200,
+    "Tax": ""
+  },
+  {
+    "Code": "363",
+    "Product name": "Fish Rolls ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "364",
+    "Product name": "Egg Rolls ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "380",
+    "Product name": "Ashtakulu Tea - (Mix of 8 Sri Lankan Spices)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 3200,
+    "Tax": ""
+  },
+  {
+    "Code": "381",
+    "Product name": "Yara Tea",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "382",
+    "Product name": "Milk Coffee",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "383",
+    "Product name": "Ginger Tea - With Milk",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "384",
+    "Product name": "Cinnamon Tea - With Milk",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "385",
+    "Product name": "Plan Tea - (Kahata with Real Kithul Jaggery)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1600,
+    "Tax": ""
+  },
+  {
+    "Code": "400",
+    "Product name": "Fruit Salad - Jumbo ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 7840,
+    "Tax": ""
+  },
+  {
+    "Code": "401",
+    "Product name": "Yogurt - with Real kithul Treacle",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 5600,
+    "Tax": ""
+  },
+  {
+    "Code": "402",
+    "Product name": "Ice Cream - With Real Kithul Treacle",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 5600,
+    "Tax": ""
+  },
+  {
+    "Code": "403",
+    "Product name": "Curd - with Real Kithul Treacle",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 5600,
+    "Tax": ""
+  },
+  {
+    "Code": "404",
+    "Product name": "Caramel Pudding",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 5600,
+    "Tax": ""
+  },
+  {
+    "Code": "405",
+    "Product name": "Rice & Curry -Chicken-Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12000,
+    "Tax": ""
+  },
+  {
+    "Code": "124",
+    "Product name": "Rice & curry Egg - regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 7840,
+    "Tax": ""
+  },
+  {
+    "Code": "406",
+    "Product name": "Rice & curry Egg - Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 10400,
+    "Tax": ""
+  },
+  {
+    "Code": "420",
+    "Product name": "EGB - 250ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1920,
+    "Tax": ""
+  },
+  {
+    "Code": "421",
+    "Product name": "EGB - 500ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 3200,
+    "Tax": ""
+  },
+  {
+    "Code": "422",
+    "Product name": "EGB - 1000ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 4800,
+    "Tax": ""
+  },
+  {
+    "Code": "423",
+    "Product name": "Lemonade -250ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1920,
+    "Tax": ""
+  },
+  {
+    "Code": "424",
+    "Product name": "Lemonade -500ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 3200,
+    "Tax": ""
+  },
+  {
+    "Code": "425",
+    "Product name": "Lemonade -1000ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 4000,
+    "Tax": ""
+  },
+  {
+    "Code": "160",
+    "Product name": "Set Menu Fried Rice - Chicken ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 13600,
+    "Tax": ""
+  },
+  {
+    "Code": "500",
+    "Product name": "Cream caramel 50g",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1600,
+    "Tax": ""
+  },
+  {
+    "Code": "162",
+    "Product name": "Set Menu Fried Rice - Chicken (Basmathi)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 18400,
+    "Tax": ""
+  },
+  {
+    "Code": "427",
+    "Product name": "Coca cola 250ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1920,
+    "Tax": ""
+  },
+  {
+    "Code": "428",
+    "Product name": "Coca cola 400ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 3200,
+    "Tax": ""
+  },
+  {
+    "Code": "429",
+    "Product name": "Coca Cola - 1050ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 4800,
+    "Tax": ""
+  },
+  {
+    "Code": "430",
+    "Product name": "Sprite- 250ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1920,
+    "Tax": ""
+  },
+  {
+    "Code": "431",
+    "Product name": "Sprite- 400ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 3200,
+    "Tax": ""
+  },
+  {
+    "Code": "432",
+    "Product name": "Sprite- 1050ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 4800,
+    "Tax": ""
+  },
+  {
+    "Code": "433",
+    "Product name": "Extra roasted chicken piece",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 4000,
+    "Tax": ""
+  },
+  {
+    "Code": "386",
+    "Product name": "Nescafe - RTD (180ml)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "387",
+    "Product name": "Milo - RTD (180ml)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2080,
+    "Tax": ""
+  },
+  {
+    "Code": "388",
+    "Product name": "Coca Cola - 250ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1920,
+    "Tax": ""
+  },
+  {
+    "Code": "389",
+    "Product name": "Coca Cola - 400ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 3200,
+    "Tax": ""
+  },
+  {
+    "Code": "450",
+    "Product name": "Chicken parts 300g -Devilled",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 4800,
+    "Tax": ""
+  },
+  {
+    "Code": "451",
+    "Product name": "Chicken parts 300g-Fried",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 4000,
+    "Tax": ""
+  },
+  {
+    "Code": "407",
+    "Product name": "Rice & curry Fish -Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 7840,
+    "Tax": ""
+  },
+  {
+    "Code": "407L",
+    "Product name": "Rice & curry Fish -Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12800,
+    "Tax": ""
+  },
+  {
+    "Code": "426",
+    "Product name": "Elephant house soda -500ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1920,
+    "Tax": ""
+  },
+  {
+    "Code": "502",
+    "Product name": "Egg Bulls eye",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1600,
+    "Tax": ""
+  },
+  {
+    "Code": "146",
+    "Product name": "o",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 0,
+    "Tax": ""
+  },
+  {
+    "Code": "185L",
+    "Product name": "Nasi Goreng Rice -  Mixed L ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 35200,
+    "Tax": ""
+  },
+  {
+    "Code": "603R",
+    "Product name": "Fried Rice - Vegetable (Basmathi) R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12000,
+    "Tax": ""
+  },
+  {
+    "Code": "603L",
+    "Product name": "Fried Rice - Vegetable (Basmathi) L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 17600,
+    "Tax": ""
+  },
+  {
+    "Code": "503",
+    "Product name": "Highland Yorghut 80g",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1120,
+    "Tax": ""
+  },
+  {
+    "Code": "600",
+    "Product name": "Chicken Fried Rice Special -Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 14400,
+    "Tax": ""
+  },
+  {
+    "Code": "600L",
+    "Product name": "Fried Rice - Egg  (Basmathi) L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 21600,
+    "Tax": ""
+  },
+  {
+    "Code": "604L",
+    "Product name": "Fried Rice - Seafood (Basmathi) L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 32800,
+    "Tax": ""
+  },
+  {
+    "Code": "604R",
+    "Product name": "Fried Rice - Seafood (Basmathi) R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 21600,
+    "Tax": ""
+  },
+  {
+    "Code": "601L",
+    "Product name": "Fried Rice - Fish (Basmathi) L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 28000,
+    "Tax": ""
+  },
+  {
+    "Code": "601R",
+    "Product name": "Fried Rice - Fish (Basmathi) R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 17600,
+    "Tax": ""
+  },
+  {
+    "Code": "605L",
+    "Product name": "Fried Rice - Mixed (Basmathi) L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 35200,
+    "Tax": ""
+  },
+  {
+    "Code": "605R",
+    "Product name": "Fried Rice - Mixed (Basmathi) R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 23200,
+    "Tax": ""
+  },
+  {
+    "Code": "325",
+    "Product name": "Egg Bullseye",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "245",
+    "Product name": "chicken piece",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 7200,
+    "Tax": ""
+  },
+  {
+    "Code": "227",
+    "Product name": "mix kottu  - regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 17600,
+    "Tax": ""
+  },
+  {
+    "Code": "397",
+    "Product name": "Water Bottle - 500ML",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1120,
+    "Tax": ""
+  },
+  {
+    "Code": "504",
+    "Product name": "egg rice special large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 18400,
+    "Tax": ""
+  },
+  {
+    "Code": "505",
+    "Product name": "egg rice special regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12000,
+    "Tax": ""
+  },
+  {
+    "Code": "506",
+    "Product name": "boiled egg ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1120,
+    "Tax": ""
+  },
+  {
+    "Code": "507",
+    "Product name": "yogurt",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1120,
+    "Tax": ""
+  },
+  {
+    "Code": "508",
+    "Product name": "Ginger beer",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "509",
+    "Product name": "ginger beer  250ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1600,
+    "Tax": ""
+  },
+  {
+    "Code": "184L",
+    "Product name": "Nasi Goreng Rice - Sea Food L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 32000,
+    "Tax": ""
+  },
+  {
+    "Code": "184",
+    "Product name": "Nasi Goreng Rice - Sea Food  R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 22400,
+    "Tax": ""
+  },
+  {
+    "Code": "602L",
+    "Product name": "Fried Rice - Chicken (Basmathi) L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 26400,
+    "Tax": ""
+  },
+  {
+    "Code": "181 L",
+    "Product name": "Nasi Goreng - Chicken  -Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 28000,
+    "Tax": ""
+  },
+  {
+    "Code": "181",
+    "Product name": "Nasi Goreng - Chicken  -Regular",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 20000,
+    "Tax": ""
+  },
+  {
+    "Code": "140 S L",
+    "Product name": "Fried Rice Egg SPECIAL - Large",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 18400,
+    "Tax": ""
+  },
+  {
+    "Code": "510",
+    "Product name": "Lion EGB - 400ML",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "511",
+    "Product name": "Lion EGB - 250ML",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1600,
+    "Tax": ""
+  },
+  {
+    "Code": "512",
+    "Product name": "chichen soup",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 6400,
+    "Tax": ""
+  },
+  {
+    "Code": "513",
+    "Product name": "Water Bottle - (1L)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2800,
+    "Tax": ""
+  },
+  {
+    "Code": "140R",
+    "Product name": "Fried Rice - Egg  (Samba) R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 9600,
+    "Tax": ""
+  },
+  {
+    "Code": "514",
+    "Product name": "ice cream",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 4800,
+    "Tax": ""
+  },
+  {
+    "Code": "515",
+    "Product name": "Apple vibe - can ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 200,
+    "Tax": ""
+  },
+  {
+    "Code": "516",
+    "Product name": "EGB - can ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "517",
+    "Product name": "lemonade - can",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "518",
+    "Product name": "chicken piece",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2560,
+    "Tax": ""
+  },
+  {
+    "Code": "602R",
+    "Product name": "Fried Rice - Chicken (Basmathi) R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 16800,
+    "Tax": ""
+  },
+  {
+    "Code": "519",
+    "Product name": "Omellete",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2720,
+    "Tax": ""
+  },
+  {
+    "Code": "311",
+    "Product name": "Pepper Chicken with Salt, Lemon & Onions (Full - 1kg)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 56000,
+    "Tax": ""
+  },
+  {
+    "Code": "521",
+    "Product name": "noodls - mix -arge",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 20800,
+    "Tax": ""
+  },
+  {
+    "Code": "184LD",
+    "Product name": "Nasi Goreng Rice - Sea Food LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 35200,
+    "Tax": "10%"
+  },
+  {
+    "Code": "185",
+    "Product name": "Nasi Goreng Rice - Chicken (Samba) R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 18400,
+    "Tax": ""
+  },
+  {
+    "Code": "185R",
+    "Product name": "Nasi Goreng Rice -  Mixed R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24000,
+    "Tax": ""
+  },
+  {
+    "Code": "600R",
+    "Product name": "Fried Rice - Egg  (Basmathi) R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 13600,
+    "Tax": ""
+  },
+  {
+    "Code": "601RD",
+    "Product name": "Fried Rice - Fish (Basmathi) RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19360,
+    "Tax": "10%"
+  },
+  {
+    "Code": "602RD",
+    "Product name": "Fried Rice - Chicken (Basmathi) RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 18480,
+    "Tax": "10%"
+  },
+  {
+    "Code": "603RD",
+    "Product name": "Fried Rice - Vegetable (Basmathi) RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 13200,
+    "Tax": "10%"
+  },
+  {
+    "Code": "604RD",
+    "Product name": "Fried Rice - Seafood (Basmathi) RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 23760,
+    "Tax": "10%"
+  },
+  {
+    "Code": "605RD",
+    "Product name": "Fried Rice - Mixed (Basmathi) Rd",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 25520,
+    "Tax": "10%"
+  },
+  {
+    "Code": "263",
+    "Product name": "Fish - Fried ( Three Slices)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 36800,
+    "Tax": ""
+  },
+  {
+    "Code": "606",
+    "Product name": "Jeli Pudding",
+    "Cost": 100,
+    "Markup": "1,820.00%",
+    "Unit price": 1920,
+    "Tax": ""
+  },
+  {
+    "Code": "607",
+    "Product name": "Watalappan",
+    "Cost": 100,
+    "Markup": "1,820.00%",
+    "Unit price": 1920,
+    "Tax": ""
+  },
+  {
+    "Code": "608",
+    "Product name": "Caremal Pudding",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1920,
+    "Tax": ""
+  },
+  {
+    "Code": "609",
+    "Product name": "water (1L)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1600,
+    "Tax": ""
+  },
+  {
+    "Code": "610",
+    "Product name": "Chicken curry(one Potion)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "611",
+    "Product name": "Fried Rice - Mixed (Basmathi) -D",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 38720,
+    "Tax": "5%,5%"
+  },
+  {
+    "Code": "612",
+    "Product name": "Fried Rice - Vegetable (Basmathi) -D",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19360,
+    "Tax": "5%,5%"
+  },
+  {
+    "Code": "601LD",
+    "Product name": "Fried Rice - Fish (Basmathi) LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 30800,
+    "Tax": "10%"
+  },
+  {
+    "Code": "600LD",
+    "Product name": "Fried Rice - Egg  (Basmathi) LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 23760,
+    "Tax": "10%"
+  },
+  {
+    "Code": "600RD",
+    "Product name": "Fried Rice - Egg  (Basmathi) RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 14960,
+    "Tax": "10%"
+  },
+  {
+    "Code": "602LD",
+    "Product name": "Fried Rice - Chicken (Basmathi) LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 29040,
+    "Tax": "10%"
+  },
+  {
+    "Code": "613LD",
+    "Product name": "Fried Rice - Vegetable (Basmathi) LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19360,
+    "Tax": "5%,5%"
+  },
+  {
+    "Code": "603LD",
+    "Product name": "Fried Rice - Vegetable (Basmathi) LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19360,
+    "Tax": "10%"
+  },
+  {
+    "Code": "604LD",
+    "Product name": "Fried Rice - Seafood (Basmathi) LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 36080,
+    "Tax": "10%"
+  },
+  {
+    "Code": "605LD",
+    "Product name": "Fried Rice - Mixed (Basmathi) LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 38720,
+    "Tax": "10%"
+  },
+  {
+    "Code": "140LD",
+    "Product name": "Fried Rice - Egg  (Samba) LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 17600,
+    "Tax": "10%"
+  },
+  {
+    "Code": "141RD",
+    "Product name": "Fried Rice - Fish (Samba) RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 14960,
+    "Tax": "10%"
+  },
+  {
+    "Code": "141LD",
+    "Product name": "Fried Rice - Fish (Samba) LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 22000,
+    "Tax": "10%"
+  },
+  {
+    "Code": "142LD",
+    "Product name": "Fried Rice - Chicken (Samba) LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 20240,
+    "Tax": "10%"
+  },
+  {
+    "Code": "142RD",
+    "Product name": "Fried Rice - Chicken (Samba) RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 13200,
+    "Tax": "10%"
+  },
+  {
+    "Code": "143RD",
+    "Product name": "Fried Rice - Vegetable (Samba) RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 8800,
+    "Tax": "10%"
+  },
+  {
+    "Code": "143LD",
+    "Product name": "Fried Rice - Vegetable (Samba) LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 14960,
+    "Tax": "10%"
+  },
+  {
+    "Code": "144RD",
+    "Product name": "Fried Rice - Seafood (Samba) RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19360,
+    "Tax": "10%"
+  },
+  {
+    "Code": "144LD",
+    "Product name": "Fried Rice - Seafood (Samba) LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 32560,
+    "Tax": "10%"
+  },
+  {
+    "Code": "145RD",
+    "Product name": "Fried Rice - Mixed (Samba) RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 21120,
+    "Tax": "10%"
+  },
+  {
+    "Code": "145LD",
+    "Product name": "Fried Rice - Mixed (Samba) LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 34320,
+    "Tax": "10%"
+  },
+  {
+    "Code": "182RD",
+    "Product name": "Nasi Goreng Rice - Chicken RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 22000,
+    "Tax": "10%"
+  },
+  {
+    "Code": "182LD",
+    "Product name": "Nasi Goreng Rice - Chicken LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 30800,
+    "Tax": "10%"
+  },
+  {
+    "Code": "185RD",
+    "Product name": "Nasi Goreng Rice -  Mixed RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 26400,
+    "Tax": "10%"
+  },
+  {
+    "Code": "185LD",
+    "Product name": "Nasi Goreng Rice -  Mixed LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 38720,
+    "Tax": "10%"
+  },
+  {
+    "Code": "184RD",
+    "Product name": "Nasi Goreng Rice - Sea Food RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24640,
+    "Tax": "10%"
+  },
+  {
+    "Code": "195RD",
+    "Product name": "Mongolian Rice - Mixed RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 26400,
+    "Tax": "10%"
+  },
+  {
+    "Code": "195LD",
+    "Product name": "Mongolian Rice - Mixed LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 38720,
+    "Tax": "10%"
+  },
+  {
+    "Code": "194RD",
+    "Product name": "Mogolian Rice - Sea Food RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24640,
+    "Tax": "10%"
+  },
+  {
+    "Code": "194LD",
+    "Product name": "Mogolian Rice - Sea Food LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 35200,
+    "Tax": "10%"
+  },
+  {
+    "Code": "192LD",
+    "Product name": "Mongolian Rice - Chicken LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 30800,
+    "Tax": "10%"
+  },
+  {
+    "Code": "192RD",
+    "Product name": "Mongolian Rice - Chicken RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 22000,
+    "Tax": "10%"
+  },
+  {
+    "Code": "222RD",
+    "Product name": "Kottu - Chicken RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 14960,
+    "Tax": "10%"
+  },
+  {
+    "Code": "222LD",
+    "Product name": "Kottu - Chicken LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 22000,
+    "Tax": "10%"
+  },
+  {
+    "Code": "220RD",
+    "Product name": "Kottu - Egg RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 11440,
+    "Tax": "10%"
+  },
+  {
+    "Code": "220LD",
+    "Product name": "Kottu - Egg LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 16720,
+    "Tax": "10%"
+  },
+  {
+    "Code": "221RD",
+    "Product name": "Kottu - Fish RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 15840,
+    "Tax": "10%"
+  },
+  {
+    "Code": "221LD",
+    "Product name": "Kottu - Fish LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 23760,
+    "Tax": "10%"
+  },
+  {
+    "Code": "224RD",
+    "Product name": "Kottu - Vegetable RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 10560,
+    "Tax": "10%"
+  },
+  {
+    "Code": "224LD",
+    "Product name": "Kottu - Vegetable LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 14960,
+    "Tax": "10%"
+  },
+  {
+    "Code": "223LD",
+    "Product name": "Kottu - Chicken With Cheese LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 36960,
+    "Tax": "10%"
+  },
+  {
+    "Code": "614",
+    "Product name": "Watalappan(220g)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 4480,
+    "Tax": ""
+  },
+  {
+    "Code": "615",
+    "Product name": "Nescafe Hot",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "616",
+    "Product name": "Fried Chicken(one Ption)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "617",
+    "Product name": "Fried Sausages(Five Pieces)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 4000,
+    "Tax": ""
+  },
+  {
+    "Code": "618",
+    "Product name": "Chinese Noodles - Chicken R",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 8800,
+    "Tax": ""
+  },
+  {
+    "Code": "122DB",
+    "Product name": "Rice & Curry - Chicken DB",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 8000,
+    "Tax": ""
+  },
+  {
+    "Code": "619",
+    "Product name": "Coca cola - 250ml (Can)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 4800,
+    "Tax": ""
+  },
+  {
+    "Code": "620",
+    "Product name": "Sprite - 250ml (Can)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 4800,
+    "Tax": ""
+  },
+  {
+    "Code": "621",
+    "Product name": "Fried Chicken(leg)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 7200,
+    "Tax": ""
+  },
+  {
+    "Code": "622",
+    "Product name": "Plane Omlet ( 2 Eggs)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "623",
+    "Product name": "Pepsi - 250ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1920,
+    "Tax": ""
+  },
+  {
+    "Code": "624",
+    "Product name": "7up - 250ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1920,
+    "Tax": ""
+  },
+  {
+    "Code": "625",
+    "Product name": "Cream Soda - 250ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1920,
+    "Tax": ""
+  },
+  {
+    "Code": "626",
+    "Product name": "Fish - One portion",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "223R",
+    "Product name": "Kottu - Chicken With Cheese RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 22880,
+    "Tax": "10%"
+  },
+  {
+    "Code": "240LD",
+    "Product name": "Chicken - Devilled LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 35200,
+    "Tax": "10%"
+  },
+  {
+    "Code": "240RD",
+    "Product name": "Chicken - Devilled RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 21120,
+    "Tax": "10%"
+  },
+  {
+    "Code": "627",
+    "Product name": "Jeli Yogurt",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1280,
+    "Tax": ""
+  },
+  {
+    "Code": "628",
+    "Product name": "Sting - 250ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1920,
+    "Tax": ""
+  },
+  {
+    "Code": "629",
+    "Product name": "Water Battle",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2080,
+    "Tax": ""
+  },
+  {
+    "Code": "630",
+    "Product name": "Fried Rice - Chicken (Basmathi) LD + More Meat & Vege",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 32560,
+    "Tax": "5%,5%"
+  },
+  {
+    "Code": "631",
+    "Product name": "Ole - Cream Soda - 250ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1600,
+    "Tax": ""
+  },
+  {
+    "Code": "632",
+    "Product name": "Ole - Ginger Beer - 250ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1600,
+    "Tax": ""
+  },
+  {
+    "Code": "633",
+    "Product name": "Pepsi - 400ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 3200,
+    "Tax": ""
+  },
+  {
+    "Code": "300 RD",
+    "Product name": "Cuttlefish - Devilled RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 27984,
+    "Tax": "10%"
+  },
+  {
+    "Code": "225RD",
+    "Product name": "Kottu - Seafood RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 23760,
+    "Tax": "10%"
+  },
+  {
+    "Code": "225LD",
+    "Product name": "Kottu - Seafood LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 0,
+    "Tax": "10%"
+  },
+  {
+    "Code": "226RD",
+    "Product name": "Kottu - Doldphine (Real Fried) RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 0,
+    "Tax": "10%"
+  },
+  {
+    "Code": "226LD",
+    "Product name": "Kottu - Doldphine (Real friend) LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 34320,
+    "Tax": "10%"
+  },
+  {
+    "Code": "160D",
+    "Product name": "Set Menu Fried Rice - Chicken D",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 14960,
+    "Tax": "10%"
+  },
+  {
+    "Code": "161D",
+    "Product name": "Set Mernu Fried Rice - Egg D",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 13200,
+    "Tax": "10%"
+  },
+  {
+    "Code": "162D",
+    "Product name": "Set Menu Fried Rice - Chicken (Basmathi)",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 20240,
+    "Tax": "10%"
+  },
+  {
+    "Code": "241RD",
+    "Product name": "Chicken - Fried RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19360,
+    "Tax": "10%"
+  },
+  {
+    "Code": "241LD",
+    "Product name": "Chicken - Fried LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 33440,
+    "Tax": "10%"
+  },
+  {
+    "Code": "243RD",
+    "Product name": "Chicken - Stew RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19360,
+    "Tax": "10%"
+  },
+  {
+    "Code": "243LD",
+    "Product name": "Chicken - Stew LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 31680,
+    "Tax": "10%"
+  },
+  {
+    "Code": "244RD",
+    "Product name": "Sausages - Devilled RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19360,
+    "Tax": "10%"
+  },
+  {
+    "Code": "244L",
+    "Product name": "Sausages - Devilled L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 28640,
+    "Tax": ""
+  },
+  {
+    "Code": "260RD",
+    "Product name": "Fish - Devilled RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 28160,
+    "Tax": "10%"
+  },
+  {
+    "Code": "260LD",
+    "Product name": "Fish - Devilled LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 49104,
+    "Tax": "10%"
+  },
+  {
+    "Code": "262RD",
+    "Product name": "Fish - Stew RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 29920,
+    "Tax": "10%"
+  },
+  {
+    "Code": "262LD",
+    "Product name": "Fish - Stew LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 51040,
+    "Tax": "10%"
+  },
+  {
+    "Code": "263D",
+    "Product name": "Fish - Fried (Three Slices) D",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 40480,
+    "Tax": "10%"
+  },
+  {
+    "Code": "280RD",
+    "Product name": "Prawns - Devilled RD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 30800,
+    "Tax": "10%"
+  },
+  {
+    "Code": "280LD",
+    "Product name": "Prawns - Devilled LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 52800,
+    "Tax": "10%"
+  },
+  {
+    "Code": "300LD",
+    "Product name": "Cuttlefish - Devilled LD",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 48400,
+    "Tax": "10%"
+  },
+  {
+    "Code": "634",
+    "Product name": "Caramal Pudding",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2560,
+    "Tax": ""
+  },
+  {
+    "Code": "1S100",
+    "Product name": "Vegitale Fride Rice Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 6400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S100F",
+    "Product name": "Vegitable Fride Rice Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 11200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S101",
+    "Product name": "Chicken Fride Rice Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 500,
+    "Tax": ""
+  },
+  {
+    "Code": "1S101F",
+    "Product name": "Chicken Fride Rice Full",
+    "Cost": 300,
+    "Markup": "200.00%",
+    "Unit price": 900,
+    "Tax": ""
+  },
+  {
+    "Code": "1S102",
+    "Product name": "Pork Fride Rice Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 16000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S102F",
+    "Product name": "Pork Fride Rice Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 22400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S103",
+    "Product name": "Beef Fride Rice Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 16000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S103F",
+    "Product name": "Beef Fride RiceFull",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S104",
+    "Product name": "Bacon Fride Rice",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S104F",
+    "Product name": "Bacon Fride Rice Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S105",
+    "Product name": "Sea Food Rice Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 15200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S105F",
+    "Product name": "Sea Food Rice Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S106",
+    "Product name": "Mix Fride Rice Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 14400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S106F",
+    "Product name": "Mix Fride Rice Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 20800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S107",
+    "Product name": "Beef Mix Fride Rice Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S107F",
+    "Product name": "Beef Mix Fride Rice Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 35200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S108",
+    "Product name": "Chopsuey Mix Rice Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S108F",
+    "Product name": "Chopsuey Mix Rice Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 28800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S109",
+    "Product name": "Thai Mix Rice Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S110",
+    "Product name": "Nasigoreng Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 16000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S111",
+    "Product name": "Mongolian Fride Rice Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 16000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S112",
+    "Product name": "Mongolian Mix Fride Rice Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 22400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S113",
+    "Product name": "Rice",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 0,
+    "Tax": "5%,5%"
+  },
+  {
+    "Code": "1S114",
+    "Product name": "Singapore Mix Rice Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S115",
+    "Product name": "Dirty Chow Fan Rice Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 16000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S116",
+    "Product name": "Prown Chow Rice Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 22400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S117",
+    "Product name": "Vegitable Kottu Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 6400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S117F",
+    "Product name": "Vegitable Kottu Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 9600,
+    "Tax": ""
+  },
+  {
+    "Code": "1S118",
+    "Product name": "Chicken Kottu half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 9600,
+    "Tax": ""
+  },
+  {
+    "Code": "1S118F",
+    "Product name": "Chicken Kottu Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 14400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S119",
+    "Product name": "Cheese Kottu Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 600,
+    "Tax": ""
+  },
+  {
+    "Code": "1S119F",
+    "Product name": "Cheese Kottu Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S120",
+    "Product name": "Cheese Chicken Kottu Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S121",
+    "Product name": "Cheese Mix Kottu Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S122",
+    "Product name": "String Hoppers Kottu Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S123",
+    "Product name": "Pork Kottu",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S124",
+    "Product name": "Beef Kottu Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 16000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S125",
+    "Product name": "Sea Food Kottu Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 15200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S126",
+    "Product name": "Mix Kottu Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 14400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S127",
+    "Product name": "Beef Mix Kottu Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S128",
+    "Product name": "Special Kottu Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S129",
+    "Product name": "Vegetable Noodles Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 6400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S130",
+    "Product name": "Chicken Noodles Half ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 9600,
+    "Tax": ""
+  },
+  {
+    "Code": "1S131",
+    "Product name": "Mix Noodles Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S132",
+    "Product name": "Sea Food Noodles Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 14400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S133",
+    "Product name": "Pork Noodles half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S134",
+    "Product name": "Creamy Chicken Pasta",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S135",
+    "Product name": "Cheesy Chicken Pasta",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 16000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S138",
+    "Product name": "Chicken - Devilled",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 16000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S139",
+    "Product name": "Chicken - Fried",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 16000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S140",
+    "Product name": "Chicken - Stew",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 16000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S141",
+    "Product name": "Chicken - Schezwan",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S142",
+    "Product name": "Chicken - BBQ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S143",
+    "Product name": "Fish - Devilled",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 20800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S144",
+    "Product name": "Fish - Stew",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 20800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S145",
+    "Product name": "Prawns - Better Fried",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S146",
+    "Product name": "Prawns - Stew",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S147",
+    "Product name": "Prawns - Devilled",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 22400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S148",
+    "Product name": "Cuttlefish Batter Fried",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 25600,
+    "Tax": ""
+  },
+  {
+    "Code": "1S149",
+    "Product name": "Cuttlefish Devilled",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 25600,
+    "Tax": ""
+  },
+  {
+    "Code": "1S150",
+    "Product name": "Cuttlefish Stew",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 25600,
+    "Tax": ""
+  },
+  {
+    "Code": "1S151",
+    "Product name": "Pork - Black Curry",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 22400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S152",
+    "Product name": "Pork - Stew",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 22400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S153",
+    "Product name": "Pork - Black Pepper",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 22400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S154",
+    "Product name": "Pork - Devilled",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 22400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S155",
+    "Product name": "Hot Butter Mushroom",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S156",
+    "Product name": "Hot Butter Prawns ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 27200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S157",
+    "Product name": "Hot Butter Cuttlefish",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 30400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S136",
+    "Product name": "Mac & Cheesy Pasta",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S137",
+    "Product name": "Creamy Seafood Pasta",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 27200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S161",
+    "Product name": "Vegetable Salad",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 8000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S162",
+    "Product name": "Coleslaw Salad",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 8000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S160",
+    "Product name": "Chicken Salad",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S164",
+    "Product name": "Onion Salad",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 6400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S166",
+    "Product name": "Hand Made EGB",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 3200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S167",
+    "Product name": "Sprite 250ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 0,
+    "Tax": "5%,5%"
+  },
+  {
+    "Code": "1S168",
+    "Product name": "Sprite 1050ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 0,
+    "Tax": "5%,5%"
+  },
+  {
+    "Code": "1S170",
+    "Product name": "Sprite Glass",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S170b",
+    "Product name": "Coca Cola 250ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 0,
+    "Tax": "5%,5%"
+  },
+  {
+    "Code": "1S171",
+    "Product name": "Coca Cola Glass",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S172",
+    "Product name": "Coca Cola Glass",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S173",
+    "Product name": "Chocolate Milkshake",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 6400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S174",
+    "Product name": "Vanila Milkshake",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 6400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S175",
+    "Product name": "Strawberry Milkshake",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 6400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S176",
+    "Product name": "Watter Bottle 500ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 0,
+    "Tax": "5%,5%"
+  },
+  {
+    "Code": "1S177",
+    "Product name": "Watter Bottle 1L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 0,
+    "Tax": "5%,5%"
+  },
+  {
+    "Code": "1S178",
+    "Product name": "Vegetable Soup",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 6400,
+    "Tax": ""
+  },
+  {
+    "Code": "1S179",
+    "Product name": "Chicken Soup",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 9600,
+    "Tax": ""
+  },
+  {
+    "Code": "1S180",
+    "Product name": "Sweet Corn Soup",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 8000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S181",
+    "Product name": "TOM YUM Soup",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 11200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S124F",
+    "Product name": "Beef Kottu Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S127F",
+    "Product name": "Beef Mix Kottu",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 35200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S120F",
+    "Product name": "Cheese Chiken Kottu Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S130F",
+    "Product name": "Chicken Noodles Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S115F",
+    "Product name": "Dirty Chow Fan Rice Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S129F",
+    "Product name": "Vegitable Noodles full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 9600,
+    "Tax": ""
+  },
+  {
+    "Code": "1S122F",
+    "Product name": "String Hoppers Kottu Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S126F",
+    "Product name": "Mix Kottu Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 20800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S131F",
+    "Product name": "Mixed Noodles Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S123F",
+    "Product name": "Pork Kottu Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 19200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S133F",
+    "Product name": "Pork Noodles Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 20800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S111F",
+    "Product name": "Mongolian Fried Rice Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S112F",
+    "Product name": "Mongolian Mixed Fried Rice Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 28800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S110F",
+    "Product name": "Nasigoreng Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S116F",
+    "Product name": "Prown Chow Rice Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 28800,
+    "Tax": ""
+  },
+  {
+    "Code": "635",
+    "Product name": "Sea Food Kottu Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S132F",
+    "Product name": "SeaFood Noodles Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 24000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S114F",
+    "Product name": "Singapore Mix Rice Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 25600,
+    "Tax": ""
+  },
+  {
+    "Code": "1S 128F",
+    "Product name": "Special Kottu Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 32000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S169",
+    "Product name": "Home Made EGB",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 3200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S158D",
+    "Product name": "Biscuit Pudin",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 5600,
+    "Tax": ""
+  },
+  {
+    "Code": "1Sprite",
+    "Product name": "Spite 2L",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 8000,
+    "Tax": ""
+  },
+  {
+    "Code": "!Ssprite",
+    "Product name": "sprite 2l",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 8000,
+    "Tax": ""
+  },
+  {
+    "Code": "1Sveg",
+    "Product name": "Boil Vegitable",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 11200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S222",
+    "Product name": "water 1l",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1600,
+    "Tax": ""
+  },
+  {
+    "Code": "1S2345",
+    "Product name": "Set Menu Fride Rice",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S259",
+    "Product name": "7up bottle",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 200,
+    "Tax": ""
+  },
+  {
+    "Code": "1S1234",
+    "Product name": "Set Menu ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 8800,
+    "Tax": ""
+  },
+  {
+    "Code": "1S1234H",
+    "Product name": "set menu half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 8000,
+    "Tax": ""
+  },
+  {
+    "Code": "1Se",
+    "Product name": "Egg Rice Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 12800,
+    "Tax": ""
+  },
+  {
+    "Code": "1SEH",
+    "Product name": "Egg Rice Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 8000,
+    "Tax": ""
+  },
+  {
+    "Code": "1SCH",
+    "Product name": "chees exra",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "1SD1",
+    "Product name": "Delivery",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 3200,
+    "Tax": ""
+  },
+  {
+    "Code": "1SEB",
+    "Product name": "Boiled Egg",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1600,
+    "Tax": ""
+  },
+  {
+    "Code": "1SB",
+    "Product name": "Beef Deviled",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 16000,
+    "Tax": ""
+  },
+  {
+    "Code": "1SEg",
+    "Product name": "Egg Kottu Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 8000,
+    "Tax": ""
+  },
+  {
+    "Code": "1S22Rice",
+    "Product name": "Rice And Curry fish",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 6400,
+    "Tax": ""
+  },
+  {
+    "Code": "636",
+    "Product name": "RICE AND CURRY CHICKEN",
+    "Cost": 400,
+    "Markup": "1,700.00%",
+    "Unit price": 7200,
+    "Tax": ""
+  },
+  {
+    "Code": "1SEGGF",
+    "Product name": "Egg Kottu Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 8000,
+    "Tax": ""
+  },
+  {
+    "Code": "637",
+    "Product name": "Egg Kottu Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 11200,
+    "Tax": ""
+  },
+  {
+    "Code": "1Sb222",
+    "Product name": "extra chicken rice and curry",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 2400,
+    "Tax": ""
+  },
+  {
+    "Code": "638",
+    "Product name": "Gini Beer 250ml",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1920,
+    "Tax": ""
+  },
+  {
+    "Code": "1SRe",
+    "Product name": "Rice And Curry Egg",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 6400,
+    "Tax": ""
+  },
+  {
+    "Code": "1SVK",
+    "Product name": "Vegetable Kottu Half",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 6400,
+    "Tax": ""
+  },
+  {
+    "Code": "1SIC",
+    "Product name": "Chocolate Ice Cream Cup",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 5600,
+    "Tax": ""
+  },
+  {
+    "Code": "639",
+    "Product name": "Basmathi Mix Rice",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 27200,
+    "Tax": ""
+  },
+  {
+    "Code": "1SF",
+    "Product name": "Vegetale Rice Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 11200,
+    "Tax": ""
+  },
+  {
+    "Code": "640",
+    "Product name": "Vegetable Kottu Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 9600,
+    "Tax": ""
+  },
+  {
+    "Code": "641",
+    "Product name": "Thai Mix Rice Full",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 28800,
+    "Tax": ""
+  },
+  {
+    "Code": "642",
+    "Product name": "extra egg",
+    "Cost": 94.5,
+    "Markup": "1,500.00%",
+    "Unit price": 1512,
+    "Tax": "5%"
+  },
+  {
+    "Code": "643",
+    "Product name": "Sausages ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 800,
+    "Tax": ""
+  },
+  {
+    "Code": "644",
+    "Product name": "rice and curry chicken full ",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 8800,
+    "Tax": ""
+  },
+  {
+    "Code": "645",
+    "Product name": "mix chees kottu",
+    "Cost": 1600,
+    "Markup": "1,500.00%",
+    "Unit price": 25600,
+    "Tax": ""
+  },
+  {
+    "Code": "1SEO",
+    "Product name": "Egg Omlet",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 4000,
+    "Tax": ""
+  },
+  {
+    "Code": "646",
+    "Product name": "coslow saled",
+    "Cost": 500,
+    "Markup": "1,500.00%",
+    "Unit price": 8000,
+    "Tax": ""
+  },
+  {
+    "Code": "647",
+    "Product name": "beef curry",
+    "Cost": 0,
+    "Markup": "0.00%",
+    "Unit price": 1500,
+    "Tax": ""
+  }
+]
