@@ -6,7 +6,7 @@ import {
   ShoppingBag, Search, Filter, Eye, 
   CheckCircle2, Clock, XCircle, ArrowUpRight,
   ChevronRight, Calendar, DollarSign, ListOrdered,
-  X, Printer, RefreshCw
+  X, Printer, RefreshCw, Banknote, CreditCard, QrCode
 } from 'lucide-react';
 import { ordersApi } from '../../lib/api';
 import { useToast } from '../../components/BikoToast';
@@ -134,7 +134,7 @@ export default function OrdersPage() {
           </div>
           <div className="flex items-center gap-4">
              <button 
-               onClick={fetchOrders}
+               onClick={() => fetchOrders()}
                className="p-4 rounded-2xl bg-white/[0.02] border border-white/[0.05] text-gray-400 hover:text-white hover:bg-white/5 transition-all active:scale-95 shadow-xl"
              >
                 <RefreshCw className={`w-5 h-5 ${loading ? 'animate-spin' : ''}`} />
