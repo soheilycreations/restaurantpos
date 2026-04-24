@@ -232,6 +232,7 @@ export default function SettingsPage() {
                   <div className="space-y-12 animate-in fade-in duration-500">
                     <div className="space-y-6">
                       <label className="text-[10px] font-black text-gray-500 uppercase tracking-widest ml-1">Visual Identity / Logo URL</label>
+                      <div className="flex items-start gap-8">
                         <div className="w-32 h-32 rounded-[2.5rem] bg-white/[0.02] border border-white/[0.05] flex items-center justify-center relative group overflow-hidden shadow-inner cursor-pointer">
                           {settings.logoUrl ? (
                              <img src={settings.logoUrl} className="w-full h-full object-cover" />
