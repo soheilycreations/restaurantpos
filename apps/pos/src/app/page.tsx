@@ -14,6 +14,7 @@ export default function POSDashboard() {
   const restaurantId = "16ae97cd-c992-4103-9e58-f7c0671cc29d";
   const socket = useSocket(restaurantId);
   const { paymentModalOpen } = usePOSStore();
+  const [activeTab, setActiveTab] = useState('Menu');
   const [activeCategory, setActiveCategory] = useState<string>('All');
   const [searchQuery, setSearchQuery] = useState('');
   const [isDark, setIsDark] = useState(false);
@@ -32,13 +33,52 @@ export default function POSDashboard() {
     });
   };
 
+  const renderContent = () => {
+    switch (activeTab) {
+      case 'Menu':
+        return (
+          <>
+            <TableGrid />
+            <ProductGrid 
+              activeCategory={activeCategory} 
+              onSelectCategory={setActiveCategory}
+              searchQuery={searchQuery} 
+            />
+          </>
+        );
+      case 'Orders':
+        return (
+          <div className="flex flex-col items-center justify-center h-full opacity-40 py-20">
+             <div className="w-20 h-20 rounded-3xl bg-white dark:bg-white/5 flex items-center justify-center mb-6 shadow-xl">
+                <Search className="w-10 h-10 text-[#6c5ce7]" />
+             </div>
+             <h2 className="text-xl font-black uppercase tracking-[0.2em]">Order History</h2>
+             <p className="text-sm font-bold text-gray-500 mt-2">Live order management coming in v1.1</p>
+          </div>
+        );
+      default:
+        return (
+          <div className="flex flex-col items-center justify-center h-full opacity-40 py-20 text-center px-10">
+             <h2 className="text-lg font-black uppercase tracking-[0.2em]">{activeTab} Section</h2>
+             <p className="text-sm font-bold text-gray-500 mt-2 italic">Building the future of restaurant management...</p>
+          </div>
+        );
+    }
+  };
+
   return (
     <div className={`${isDark ? 'dark' : ''} fixed inset-0 overflow-hidden`}>
       <div className="flex h-full w-full bg-white dark:bg-[#0f1621] transition-colors duration-300">
         
-        {/* LEFT: Icon Sidebar + Category */}
+        {/* LEFT: Icon Sidebar */}
         <div className="flex-shrink-0">
-          <Sidebar activeCategory={activeCategory} onSelectCategory={setActiveCategory} isDark={isDark} />
+          <Sidebar 
+            activeTab={activeTab} 
+            onSelectTab={setActiveTab} 
+            activeCategory={activeCategory} 
+            onSelectCategory={setActiveCategory} 
+            isDark={isDark} 
+          />
         </div>
 
         {/* CENTER */}
@@ -89,14 +129,10 @@ export default function POSDashboard() {
 
           {/* SCROLLABLE CONTENT */}
           <div className="flex-1 overflow-y-auto px-8 pb-8 scrollbar-hide">
-            <TableGrid />
-            <ProductGrid 
-              activeCategory={activeCategory} 
-              onSelectCategory={setActiveCategory}
-              searchQuery={searchQuery} 
-            />
+            {renderContent()}
           </div>
         </main>
+
 
         {/* RIGHT: Cart Panel */}
         <div className="flex-shrink-0 w-[320px] h-full border-l border-gray-100 dark:border-white/[0.07]">

@@ -9,11 +9,11 @@ async function main() {
 
   // 1. Get/Create Restaurant
   const restaurant = await prisma.restaurant.upsert({
-    where: { id: 'web-pos-restaurant-id' }, // Stable ID for demo
-    update: { name: 'webResturent POS' },
+    where: { id: '16ae97cd-c992-4103-9e58-f7c0671cc29d' },
+    update: { name: 'WebPOS Official Demo' },
     create: {
-      id: 'web-pos-restaurant-id',
-      name: 'webResturent POS',
+      id: '16ae97cd-c992-4103-9e58-f7c0671cc29d',
+      name: 'WebPOS Official Demo',
       location: 'Colombo, Sri Lanka',
     },
   });
@@ -33,10 +33,16 @@ async function main() {
   // 3. Helper to infer category
   const inferCategory = (name: string) => {
     const n = name.toLowerCase();
+    if (n.includes('soup')) return 'Soups';
+    if (n.includes('rice & curry')) return 'Rice & Curry';
+    if (n.includes('biriyani') || n.includes('biryani')) return 'Biryani';
     if (n.includes('kottu')) return 'Kottu';
-    if (n.includes('rice') || n.includes('biriyani')) return 'Rice Items';
+    if (n.includes('fried rice')) return 'Fried Rice';
+    if (n.includes('nasi goreng') || n.includes('mongolian')) return 'Special Rice';
     if (n.includes('noodles') || n.includes('pasta')) return 'Noodles';
-    if (n.includes('drink') || n.includes('bottle') || n.includes('water') || n.includes('sprite') || n.includes('7up') || n.includes('egb')) return 'Drinks';
+    if (n.includes('devilled') || n.includes('fried') || n.includes('stew')) return 'Main Dishes';
+    if (n.includes('omelette') || n.includes('egg')) return 'Egg Dishes';
+    if (n.includes('drink') || n.includes('bottle') || n.includes('water') || n.includes('sprite') || n.includes('7up') || n.includes('egb') || n.includes('coffee') || n.includes('tea') || n.includes('soda')) return 'Drinks';
     if (n.includes('dessert') || n.includes('pudin') || n.includes('ice cream')) return 'Desserts';
     if (n.includes('burger')) return 'Burgers';
     return 'Other';
@@ -45,16 +51,26 @@ async function main() {
   // 4. Process items
   const categories: Record<string, string> = {};
 
+  // Pre-load existing categories for this restaurant
+  const existingCategories = await prisma.category.findMany({
+    where: { restaurantId: restaurant.id }
+  });
+  existingCategories.forEach(cat => {
+    categories[cat.name] = cat.id;
+  });
+
   for (const item of items) {
     const catName = inferCategory(item['Product name'] || '');
     
     // Get/Create Category
     if (!categories[catName]) {
       const cat = await prisma.category.upsert({
-        where: { id: `cat-${catName.toLowerCase().replace(/\s+/g, '-')}` },
-        update: {},
+        where: { 
+          id: `cat-${catName.toLowerCase().replace(/\s+/g, '-')}-${restaurant.id.slice(0, 5)}` 
+        },
+        update: { name: catName },
         create: {
-          id: `cat-${catName.toLowerCase().replace(/\s+/g, '-')}`,
+          id: `cat-${catName.toLowerCase().replace(/\s+/g, '-')}-${restaurant.id.slice(0, 5)}`,
           name: catName,
           restaurantId: restaurant.id,
         },
@@ -63,20 +79,24 @@ async function main() {
     }
 
     // Create Product
+    const price = parseFloat(item['Unit price']) || 0;
+    
     await prisma.product.upsert({
-      where: { id: `prod-${item['Code']}` },
+      where: { id: `prod-${item['Code']}-${restaurant.id.slice(0, 5)}` },
       update: {
         name: item['Product name'],
-        price: parseFloat(item['Unit price']) || 0,
+        price: price,
         categoryId: categories[catName],
+        restaurantId: restaurant.id,
       },
       create: {
-        id: `prod-${item['Code']}`,
+        id: `prod-${item['Code']}-${restaurant.id.slice(0, 5)}`,
         name: item['Product name'],
-        price: parseFloat(item['Unit price']) || 0,
+        price: price,
         categoryId: categories[catName],
         restaurantId: restaurant.id,
         description: `Imported from Excel. Code: ${item['Code']}`,
+        image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&q=80', // Default image
       },
     });
   }
