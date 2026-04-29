@@ -31,8 +31,8 @@ export class ImportController {
 
     for (const row of data) {
       // Flexible Column Name Detection
-      const name = row['Name'] || row['Item Name'] || row['item'] || row['Item'] || row['NAME'];
-      const priceRaw = row['Price'] || row['Selling Price'] || row['price'] || row['Rate'] || row['amount'] || 0;
+      const name = row['Product name'] || row['Name'] || row['Item Name'] || row['item'] || row['Item'] || row['NAME'];
+      const priceRaw = row['Unit price'] || row['Price'] || row['Selling Price'] || row['price'] || row['Rate'] || row['amount'] || 0;
       const price = parseFloat(priceRaw.toString());
       const catName = row['Category'] || row['category'] || row['Type'] || 'Other';
 
