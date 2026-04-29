@@ -32,4 +32,22 @@ export class RestaurantService {
       },
     });
   }
+
+  async findAll() {
+    return this.prisma.restaurant.findMany({
+      orderBy: { createdAt: 'desc' }
+    });
+  }
+
+  async create(data: any) {
+    return this.prisma.restaurant.create({
+      data: {
+        name: data.name,
+        address: data.address || '',
+        phone: data.phone || '',
+        email: data.email || '',
+        managerCode: data.managerCode || '8888',
+      }
+    });
+  }
 }

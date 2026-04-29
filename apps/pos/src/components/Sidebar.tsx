@@ -25,8 +25,11 @@ export function Sidebar({ isDark = false, activeTab, onSelectTab }: {
   const [restaurant, setRestaurant] = React.useState<any>(null);
 
   React.useEffect(() => {
-    fetch('http://localhost:3001/restaurant', {
-      headers: { 'x-tenant-id': '16ae97cd-c992-4103-9e58-f7c0671cc29d' }
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+    const tenantId = process.env.NEXT_PUBLIC_RESTAURANT_ID || "16ae97cd-c992-4103-9e58-f7c0671cc29d";
+    
+    fetch(`${apiUrl}/restaurant`, {
+      headers: { 'x-tenant-id': tenantId }
     })
     .then(res => res.json())
     .then(data => setRestaurant(data));

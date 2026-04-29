@@ -1,7 +1,7 @@
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
 
 export async function fetchWithTenant(endpoint: string, options: any = {}) {
-  const tenantId = "16ae97cd-c992-4103-9e58-f7c0671cc29d"; // Logic should be replaced with Auth session
+  const tenantId = process.env.NEXT_PUBLIC_RESTAURANT_ID || "16ae97cd-c992-4103-9e58-f7c0671cc29d";
   
   const res = await fetch(`${API_URL}${endpoint}`, {
     ...options,

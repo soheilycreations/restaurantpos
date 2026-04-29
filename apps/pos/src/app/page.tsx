@@ -11,7 +11,7 @@ import { PaymentModal } from '../components/PaymentModal';
 import { Moon, Sun, Search } from 'lucide-react';
 
 export default function POSDashboard() {
-  const restaurantId = "16ae97cd-c992-4103-9e58-f7c0671cc29d";
+  const restaurantId = process.env.NEXT_PUBLIC_RESTAURANT_ID || "16ae97cd-c992-4103-9e58-f7c0671cc29d";
   const socket = useSocket(restaurantId);
   const { paymentModalOpen } = usePOSStore();
   const [activeTab, setActiveTab] = useState('Menu');

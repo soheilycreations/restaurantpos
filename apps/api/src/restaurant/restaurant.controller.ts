@@ -1,13 +1,23 @@
-import { Controller, Get, Patch, Body, UseGuards, Req } from '@nestjs/common';
+import { Controller, Get, Patch, Body, UseGuards, Req, Post } from '@nestjs/common';
 import { RestaurantService } from './restaurant.service';
 import { TenantGuard } from '../auth/tenant.guard';
 
 @Controller('restaurant')
-@UseGuards(TenantGuard)
 export class RestaurantController {
   constructor(private readonly restaurantService: RestaurantService) {}
 
+  @Get('all')
+  findAll() {
+    return this.restaurantService.findAll();
+  }
+
+  @Post()
+  create(@Body() data: any) {
+    return this.restaurantService.create(data);
+  }
+
   @Get()
+  @UseGuards(TenantGuard)
   getSettings(@Req() req: any) {
     return this.restaurantService.getSettings(req.tenantId);
   }
@@ -18,6 +28,7 @@ export class RestaurantController {
   }
 
   @Patch()
+  @UseGuards(TenantGuard)
   updateSettings(@Req() req: any, @Body() data: any) {
     return this.restaurantService.updateSettings(req.tenantId, data);
   }

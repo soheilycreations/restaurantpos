@@ -13,6 +13,7 @@ import { ThemeHandler } from './ThemeHandler';
 
 const menu = [
   { title: 'Dashboard', icon: LayoutDashboard, path: '/' },
+  { title: 'Restaurants', icon: Building2, path: '/restaurants' },
   { title: 'Orders', icon: ShoppingBag, path: '/orders' },
   { title: 'Tables', icon: Grid, path: '/tables' },
   { title: 'Categories', icon: Layers, path: '/categories' },
@@ -27,8 +28,11 @@ export function AdminSidebar() {
   const [restaurant, setRestaurant] = React.useState<any>(null);
 
   React.useEffect(() => {
-    fetch('http://localhost:3001/restaurant', {
-      headers: { 'x-tenant-id': '16ae97cd-c992-4103-9e58-f7c0671cc29d' }
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+    const tenantId = process.env.NEXT_PUBLIC_RESTAURANT_ID || "16ae97cd-c992-4103-9e58-f7c0671cc29d";
+
+    fetch(`${apiUrl}/restaurant`, {
+      headers: { 'x-tenant-id': tenantId }
     })
     .then(res => res.json())
     .then(data => setRestaurant(data));
