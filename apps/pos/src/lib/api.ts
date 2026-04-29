@@ -1,7 +1,14 @@
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
 
 export async function fetchWithTenant(endpoint: string, options: any = {}) {
-  const tenantId = process.env.NEXT_PUBLIC_RESTAURANT_ID || "16ae97cd-c992-4103-9e58-f7c0671cc29d";
+  let tenantId = process.env.NEXT_PUBLIC_RESTAURANT_ID || "16ae97cd-c992-4103-9e58-f7c0671cc29d";
+  
+  // If in browser, try to get ID from URL
+  if (typeof window !== 'undefined') {
+    const params = new URLSearchParams(window.location.search);
+    const idFromUrl = params.get('restaurantId');
+    if (idFromUrl) tenantId = idFromUrl;
+  }
   
   const res = await fetch(`${API_URL}${endpoint}`, {
     ...options,
