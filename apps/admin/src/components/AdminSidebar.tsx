@@ -26,17 +26,20 @@ const menu = [
 export function AdminSidebar() {
   const pathname = usePathname();
   const [restaurant, setRestaurant] = React.useState<any>(null);
+  const [restaurantId, setRestaurantId] = React.useState<string | null>(null);
 
   React.useEffect(() => {
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
-    const tenantId = process.env.NEXT_PUBLIC_RESTAURANT_ID || "16ae97cd-c992-4103-9e58-f7c0671cc29d";
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('restaurantId') || process.env.NEXT_PUBLIC_RESTAURANT_ID || "16ae97cd-c992-4103-9e58-f7c0671cc29d";
+    setRestaurantId(id);
 
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
     fetch(`${apiUrl}/restaurant`, {
-      headers: { 'x-tenant-id': tenantId }
+      headers: { 'x-tenant-id': id }
     })
     .then(res => res.json())
     .then(data => setRestaurant(data));
-  }, []);
+  }, [pathname]); // Re-check when path changes
 
   return (
     <aside className="w-72 bg-[#0b101a] border-r border-white/[0.05] h-full flex flex-col relative z-40 transition-all duration-300">
@@ -64,10 +67,11 @@ export function AdminSidebar() {
       <nav className="flex-1 px-4 space-y-2 mt-4 overflow-y-auto scrollbar-hide">
         {menu.map((item) => {
           const isActive = pathname === item.path;
+          const href = restaurantId ? `${item.path}?restaurantId=${restaurantId}` : item.path;
           return (
             <Link
               key={item.title}
-              href={item.path}
+              href={href}
               className={`w-full group flex items-center justify-between px-5 py-4 rounded-[1.5rem] transition-all duration-300 border ${
                 isActive 
                   ? 'bg-primary text-white border-transparent shadow-2xl shadow-primary/20 scale-[1.02]' 

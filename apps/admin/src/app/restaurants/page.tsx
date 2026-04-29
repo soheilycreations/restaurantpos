@@ -220,13 +220,20 @@ export default function RestaurantsPage() {
                         Settings
                      </button>
                      <button 
-                        onClick={() => launchPOS(shop.id)}
-                        className="flex items-center justify-center gap-2 py-3 rounded-xl bg-primary text-white text-[10px] font-black uppercase tracking-widest shadow-xl shadow-primary/10 hover:shadow-primary/30 transition-all"
+                        onClick={() => window.location.href = `/?restaurantId=${shop.id}`}
+                        className="flex items-center justify-center gap-2 py-3 rounded-xl bg-indigo-500/20 border border-indigo-500/30 text-[10px] font-black uppercase tracking-widest text-indigo-400 hover:bg-indigo-500/30 hover:text-white transition-all"
                      >
-                        <ExternalLink className="w-3.5 h-3.5" />
-                        Launch
+                        <LayoutDashboard className="w-3.5 h-3.5" />
+                        Manage
                      </button>
                   </div>
+                  <button 
+                     onClick={() => launchPOS(shop.id)}
+                     className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-primary text-white text-[10px] font-black uppercase tracking-widest shadow-xl shadow-primary/10 hover:shadow-primary/30 transition-all mt-3"
+                  >
+                     <ExternalLink className="w-3.5 h-3.5" />
+                     Launch POS
+                  </button>
                </div>
             </div>
           ))}

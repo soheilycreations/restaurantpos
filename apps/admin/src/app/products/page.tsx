@@ -188,12 +188,54 @@ export default function ProductsPage() {
                </div>
             </div>
           </div>
-          <button 
-            onClick={() => handleOpenModal()}
-            className="flex items-center gap-3 bg-[#6c5ce7] text-white px-8 py-5 rounded-[1.5rem] text-[11px] font-black uppercase tracking-[0.2em] transition-all hover:scale-[1.05] active:scale-[0.95] shadow-2xl shadow-[#6c5ce7]/40 group border border-white/10"
-          >
-            <Plus className="w-5 h-5 group-hover:rotate-90 transition-transform duration-500" /> Index New Asset
-          </button>
+          <div className="flex gap-4">
+             <button 
+               onClick={() => handleOpenModal()}
+               className="flex items-center gap-3 bg-[#6c5ce7] text-white px-8 py-5 rounded-[1.5rem] text-[11px] font-black uppercase tracking-[0.2em] transition-all hover:scale-[1.05] active:scale-[0.95] shadow-2xl shadow-[#6c5ce7]/40 group border border-white/10"
+             >
+               <Plus className="w-5 h-5 group-hover:rotate-90 transition-transform duration-500" /> Index New Asset
+             </button>
+             
+             <button 
+              onClick={() => document.getElementById('excelImport')?.click()}
+              className="flex items-center gap-3 bg-white/[0.05] text-gray-400 border border-white/10 px-6 py-5 rounded-[1.5rem] text-[10px] font-black uppercase tracking-[0.2em] transition-all hover:bg-white/[0.08] hover:text-white"
+             >
+                <Upload className="w-4 h-4" /> Import Excel
+             </button>
+             <input 
+               id="excelImport"
+               type="file" 
+               className="hidden" 
+               accept=".xlsx,.xls"
+               onChange={async (e) => {
+                 const file = e.target.files?.[0];
+                 if (!file) return;
+                 
+                 const formData = new FormData();
+                 formData.append('file', file);
+                 const params = new URLSearchParams(window.location.search);
+                 const restaurantId = params.get('restaurantId') || "16ae97cd-c992-4103-9e58-f7c0671cc29d";
+                 formData.append('restaurantId', restaurantId);
+
+                 try {
+                   showToast('Importing products...', 'info');
+                   const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+                   const res = await fetch(`${apiUrl}/import/excel`, {
+                     method: 'POST',
+                     body: formData
+                   });
+                   if (res.ok) {
+                     showToast('Import successful', 'success');
+                     fetchData();
+                   } else {
+                     throw new Error('Import failed');
+                   }
+                 } catch (err) {
+                   showToast('Import failed', 'error');
+                 }
+               }}
+             />
+          </div>
         </header>
 
         <div className="p-10 space-y-12 animate-premium-fade">
