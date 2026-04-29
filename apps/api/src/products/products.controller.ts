@@ -42,6 +42,12 @@ export class ProductsController {
     return this.productsService.deleteProduct(id);
   }
 
+  @Post('bulk-delete')
+  async deleteMany(@Headers('x-tenant-id') tenantId: string, @Query('restaurantId') queryId: string, @Body() body: { ids: string[] }) {
+    const rId = this.getRestaurantId(tenantId, queryId);
+    return this.productsService.deleteProducts(body.ids, rId);
+  }
+
   @Post('categories')
   async createCategory(@Headers('x-tenant-id') tenantId: string, @Query('restaurantId') queryId: string, @Body() data: any) {
     const rId = this.getRestaurantId(tenantId, queryId);

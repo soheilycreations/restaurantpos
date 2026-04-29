@@ -69,6 +69,10 @@ export const productsApi = {
   delete: (id: string) => fetchWithTenant(`/products/${id}`, {
     method: 'DELETE',
   }),
+  bulkDelete: (ids: string[]) => fetchWithTenant('/products/bulk-delete', {
+    method: 'POST',
+    body: JSON.stringify({ ids }),
+  }),
 };
 export const ordersApi = {
   getAll: () => fetchWithTenant('/orders'),

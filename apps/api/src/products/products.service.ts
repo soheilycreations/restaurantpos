@@ -62,6 +62,15 @@ export class ProductsService {
     });
   }
 
+  async deleteProducts(ids: string[], restaurantId: string) {
+    return this.prisma.product.deleteMany({
+      where: {
+        id: { in: ids },
+        restaurantId
+      }
+    });
+  }
+
   async createCategory(restaurantId: string, data: any) {
     return this.prisma.category.create({
       data: {

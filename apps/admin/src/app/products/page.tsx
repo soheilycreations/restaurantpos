@@ -19,6 +19,7 @@ export default function ProductsPage() {
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
+  const [selectedProducts, setSelectedProducts] = useState<string[]>([]);
   const { showToast } = useToast();
   
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -156,6 +157,36 @@ export default function ProductsPage() {
     }
   };
 
+  const toggleSelection = (id: string) => {
+    setSelectedProducts(prev => 
+      prev.includes(id) ? prev.filter(i => i !== id) : [...prev, id]
+    );
+  };
+
+  const handleSelectAll = () => {
+    if (selectedProducts.length === filtered.length) {
+      setSelectedProducts([]);
+    } else {
+      setSelectedProducts(filtered.map(p => p.id));
+    }
+  };
+
+  const handleBulkDelete = async () => {
+    if (!confirm(`Are you sure you want to delete ${selectedProducts.length} items?`)) return;
+    try {
+      setLoading(true);
+      await productsApi.bulkDelete(selectedProducts);
+      showToast('Bulk assets decommissioned', 'success');
+      setSelectedProducts([]);
+      fetchData();
+    } catch (err) {
+      console.error('Bulk delete failed:', err);
+      showToast('Operation failed', 'error');
+    } finally {
+      setLoading(false);
+    }
+  };
+
   const filtered = products.filter(p => {
     const matchesSearch = p.name.toLowerCase().includes(search.toLowerCase());
     const matchesCategory = selectedCategory === 'All' || p.categoryId === selectedCategory;
@@ -196,6 +227,15 @@ export default function ProductsPage() {
              >
                <Plus className="w-5 h-5 group-hover:rotate-90 transition-transform duration-500" /> Index New Asset
              </button>
+
+             {selectedProducts.length > 0 && (
+                <button 
+                  onClick={handleBulkDelete}
+                  className="flex items-center gap-3 bg-rose-500 text-white px-8 py-5 rounded-[1.5rem] text-[11px] font-black uppercase tracking-[0.2em] transition-all hover:scale-[1.05] shadow-2xl shadow-rose-500/30 border border-white/10 animate-in slide-in-from-right duration-500"
+                >
+                   <Trash2 className="w-5 h-5" /> Delete Selected ({selectedProducts.length})
+                </button>
+             )}
              
              <button 
               onClick={() => document.getElementById('excelImport')?.click()}
@@ -302,6 +342,13 @@ export default function ProductsPage() {
                       {cat.name}
                    </button>
                  ))}
+                 
+                 <button 
+                   onClick={handleSelectAll}
+                   className="px-8 py-4 rounded-[1.25rem] text-[10px] font-black uppercase tracking-widest transition-all border bg-white/[0.02] text-gray-500 border-dashed border-white/20 hover:border-white hover:text-white"
+                 >
+                    {selectedProducts.length === filtered.length ? 'Deselect All' : 'Select All'}
+                 </button>
               </div>
            </div>
 
@@ -323,7 +370,13 @@ export default function ProductsPage() {
            ) : (
              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
                 {filtered.map(product => (
-                  <div key={product.id} className="premium-card group relative p-4 rounded-[3rem] bg-white/[0.02] hover:bg-white/[0.04] transition-all duration-700 border border-white/[0.06] hover:border-[#6c5ce7]/30">
+                  <div 
+                    key={product.id} 
+                    onClick={() => toggleSelection(product.id)}
+                    className={`premium-card group relative p-4 rounded-[3rem] bg-white/[0.02] hover:bg-white/[0.04] transition-all duration-700 border hover:border-[#6c5ce7]/30 cursor-pointer ${
+                      selectedProducts.includes(product.id) ? 'border-[#6c5ce7] bg-[#6c5ce7]/5 shadow-2xl shadow-[#6c5ce7]/10' : 'border-white/[0.06]'
+                    }`}
+                  >
                      {/* Card Image Area */}
                      <div className="aspect-square relative overflow-hidden rounded-[2.5rem] bg-black/40">
                         {product.image ? (
@@ -339,6 +392,13 @@ export default function ProductsPage() {
                            <span className="px-4 py-2 bg-[#0b101a]/80 backdrop-blur-md rounded-xl text-[9px] font-black border border-white/10 text-[#a29bfe] uppercase tracking-[0.2em]">
                               {categories.find(c => c.id === product.categoryId)?.name || 'General'}
                            </span>
+                        </div>
+
+                        {/* Selection Checkbox UI */}
+                        <div className={`absolute top-5 right-5 w-6 h-6 rounded-lg border-2 flex items-center justify-center transition-all ${
+                            selectedProducts.includes(product.id) ? 'bg-[#6c5ce7] border-[#6c5ce7] text-white' : 'bg-black/40 border-white/20 text-transparent'
+                        }`}>
+                            <CheckCircle2 className="w-4 h-4" />
                         </div>
                      </div>
 
