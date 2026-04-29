@@ -97,7 +97,7 @@ export function ActiveCart() {
       restaurantName: restaurant?.name || 'WebPOS',
       address: restaurant?.address || '',
       phone: restaurant?.phone || '',
-      logoUrl: restaurant?.printLogo ? restaurant?.logoUrl : null,
+      logoUrl: restaurant?.logoUrl || null,
       orderId: activeTableId,
       date: new Date().toLocaleString(),
       table: isTakeaway ? 'TAKEAWAY' : isDelivery ? 'DELIVERY' : `Table ${currentTable?.number || '...'}`,

@@ -20,6 +20,7 @@ interface ReceiptProps {
     isFinal?: boolean;
     type?: 'RECEIPT' | 'KOT';
     marketingUrl?: string;
+    logoUrl?: string | null;
   } | null;
 }
 
@@ -100,6 +101,20 @@ export function PrintReceipt({ orderData }: ReceiptProps) {
           <h1 style={{ fontSize: '20px', margin: '0 0 1mm 0', fontWeight: '900', textDecoration: 'underline' }}>KITCHEN ORDER</h1>
         ) : (
           <>
+            {orderData.logoUrl && (
+              <img 
+                src={orderData.logoUrl} 
+                alt="logo" 
+                style={{ 
+                  width: '20mm', 
+                  height: '20mm', 
+                  objectFit: 'contain', 
+                  marginBottom: '2mm',
+                  display: 'block',
+                  margin: '0 auto 2mm auto'
+                }} 
+              />
+            )}
             <h1 style={{ fontSize: '16px', margin: '0 0 1mm 0', fontWeight: 'bold' }}>{orderData.restaurantName}</h1>
             <p style={{ margin: 0 }}>{orderData.address}</p>
             <p style={{ margin: 0 }}>Tel: {orderData.phone}</p>

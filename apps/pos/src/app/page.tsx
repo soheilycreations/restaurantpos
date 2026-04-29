@@ -12,6 +12,7 @@ import { Moon, Sun, Search, Loader2 } from 'lucide-react';
 
 export default function POSDashboard() {
   const [restaurantId, setRestaurantId] = useState<string>("");
+  const [restaurant, setRestaurant] = useState<any>(null);
   const [searchQuery, setSearchQuery] = useState('');
   
   useEffect(() => {
@@ -21,7 +22,17 @@ export default function POSDashboard() {
     const idFromEnv = process.env.NEXT_PUBLIC_RESTAURANT_ID;
     const defaultId = "16ae97cd-c992-4103-9e58-f7c0671cc29d";
     
-    setRestaurantId(idFromUrl || idFromEnv || defaultId);
+    const id = idFromUrl || idFromEnv || defaultId;
+    setRestaurantId(id);
+
+    // Fetch Restaurant Details
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+    fetch(`${apiUrl}/restaurant`, {
+      headers: { 'x-tenant-id': id }
+    })
+    .then(res => res.json())
+    .then(data => setRestaurant(data))
+    .catch(err => console.error('Failed to fetch restaurant', err));
   }, []);
 
   const socket = useSocket(restaurantId);
@@ -119,7 +130,23 @@ export default function POSDashboard() {
             </div>
 
             {/* Right actions */}
-            <div className="flex items-center gap-3 ml-auto">
+            <div className="flex items-center gap-4 ml-auto">
+               <div className="flex items-center gap-3 pr-4 border-r border-gray-200 dark:border-white/10">
+                  <div className="w-10 h-10 rounded-2xl bg-white dark:bg-[#1a2035] border border-gray-200 dark:border-white/[0.07] flex items-center justify-center overflow-hidden shadow-sm">
+                    {restaurant?.logoUrl ? (
+                      <img src={restaurant.logoUrl} className="w-full h-full object-cover" />
+                    ) : (
+                      <div className="w-full h-full bg-primary flex items-center justify-center text-white font-black">
+                        {restaurant?.name?.charAt(0) || 'R'}
+                      </div>
+                    )}
+                  </div>
+                  <div className="hidden sm:block">
+                     <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest leading-none mb-1">Terminal Active</p>
+                     <p className="text-sm font-black text-gray-800 dark:text-white leading-none uppercase tracking-tighter">{restaurant?.name || 'Loading...'}</p>
+                  </div>
+               </div>
+
               {/* Dark Mode Toggle */}
               <button
                 onClick={toggleTheme}

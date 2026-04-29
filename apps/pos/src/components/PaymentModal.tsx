@@ -24,12 +24,16 @@ export function PaymentModal() {
   const [restaurant, setRestaurant] = useState<any>(null);
 
   useEffect(() => {
-    fetch('http://localhost:3001/restaurant', {
-      headers: { 'x-tenant-id': '16ae97cd-c992-4103-9e58-f7c0671cc29d' }
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+    const id = activeTableId ? (window.location.search.includes('restaurantId') ? new URLSearchParams(window.location.search).get('restaurantId') : process.env.NEXT_PUBLIC_RESTAURANT_ID) : process.env.NEXT_PUBLIC_RESTAURANT_ID;
+    const finalId = id || "16ae97cd-c992-4103-9e58-f7c0671cc29d";
+    
+    fetch(`${apiUrl}/restaurant`, {
+      headers: { 'x-tenant-id': finalId }
     })
     .then(res => res.json())
     .then(data => setRestaurant(data));
-  }, []);
+  }, [activeTableId]);
   
   const { notify } = useNotify();
 
@@ -113,7 +117,7 @@ export function PaymentModal() {
           restaurantName: restaurant?.name || 'WebPOS',
           address: restaurant?.address || '',
           phone: restaurant?.phone || '',
-          logoUrl: restaurant?.printLogo ? restaurant?.logoUrl : null,
+          logoUrl: restaurant?.logoUrl || null,
           orderId: activeTableId,
           date: new Date().toLocaleString(),
           table: isTakeaway ? 'TAKEAWAY' : isDelivery ? 'DELIVERY' : `Table ${currentTable?.number || '...'}`,
