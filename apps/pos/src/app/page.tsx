@@ -8,10 +8,11 @@ import { ProductGrid } from '../components/ProductGrid';
 import { TableGrid } from '../components/TableGrid';
 import { ActiveCart } from '../components/ActiveCart';
 import { PaymentModal } from '../components/PaymentModal';
-import { Moon, Sun, Search } from 'lucide-react';
+import { Moon, Sun, Search, Loader2 } from 'lucide-react';
 
 export default function POSDashboard() {
   const [restaurantId, setRestaurantId] = useState<string>("");
+  const [searchQuery, setSearchQuery] = useState('');
   
   useEffect(() => {
     // Priority: Query Param > Env Var > Default
@@ -27,16 +28,22 @@ export default function POSDashboard() {
   const { paymentModalOpen } = usePOSStore();
   const [activeTab, setActiveTab] = useState('Menu');
   const [activeCategory, setActiveCategory] = useState<string>('All');
-  const [searchQuery, setSearchQuery] = useState('');
   const [isDark, setIsDark] = useState(false);
-
-  if (!restaurantId) return null; // Wait for ID to be resolved
 
   // Persist preference
   useEffect(() => {
     const saved = localStorage.getItem('pos-theme');
     if (saved === 'dark') setIsDark(true);
   }, []);
+
+  if (!restaurantId) {
+    return (
+      <div className="h-screen w-full bg-[#0b101a] flex flex-col items-center justify-center gap-4">
+        <Loader2 className="w-10 h-10 animate-spin text-primary" />
+        <p className="text-white/40 text-[10px] font-black uppercase tracking-[0.3em]">Initializing POS Terminal...</p>
+      </div>
+    );
+  }
 
   const toggleTheme = () => {
     setIsDark((prev) => {
