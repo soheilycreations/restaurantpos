@@ -24,44 +24,55 @@ export class ImportController {
     const sheetName = workbook.SheetNames[0];
     const sheet = workbook.Sheets[sheetName];
     const data: any[] = xlsx.utils.sheet_to_json(sheet);
+    console.log(`Excel data parsed: ${data.length} rows found`);
 
     let importedCount = 0;
     const categories: Record<string, string> = {};
 
     for (const row of data) {
-      const name = row['Name'] || row['Item Name'];
-      const price = parseFloat(row['Price'] || row['Selling Price'] || 0);
-      const catName = row['Category'] || 'Other';
+      // Flexible Column Name Detection
+      const name = row['Name'] || row['Item Name'] || row['item'] || row['Item'] || row['NAME'];
+      const priceRaw = row['Price'] || row['Selling Price'] || row['price'] || row['Rate'] || row['amount'] || 0;
+      const price = parseFloat(priceRaw.toString());
+      const catName = row['Category'] || row['category'] || row['Type'] || 'Other';
 
-      if (!name) continue;
-
-      // Ensure Category exists
-      if (!categories[catName]) {
-        let category = await this.prisma.category.findFirst({
-          where: { name: catName, restaurantId }
-        });
-        if (!category) {
-          category = await this.prisma.category.create({
-            data: { name: catName, restaurantId }
-          });
-        }
-        categories[catName] = category.id;
+      if (!name) {
+        console.warn('Row skipped: Name missing', row);
+        continue;
       }
 
-      // Create Product
-      await this.prisma.product.create({
-        data: {
-          name,
-          price,
-          categoryId: categories[catName],
-          restaurantId,
-          description: `Imported from Excel. Code: ${row['Code'] || ''}`,
-          image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&q=80'
+      try {
+        // Ensure Category exists
+        if (!categories[catName]) {
+          let category = await this.prisma.category.findFirst({
+            where: { name: catName, restaurantId }
+          });
+          if (!category) {
+            category = await this.prisma.category.create({
+              data: { name: catName, restaurantId }
+            });
+          }
+          categories[catName] = category.id;
         }
-      });
-      importedCount++;
+
+        // Create Product
+        await this.prisma.product.create({
+          data: {
+            name: name.toString(),
+            price,
+            categoryId: categories[catName],
+            restaurantId,
+            description: `Imported from Excel.`,
+            image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&q=80'
+          }
+        });
+        importedCount++;
+      } catch (err) {
+        console.error(`Failed to import row: ${name}`, err);
+      }
     }
 
+    console.log(`Import completed: ${importedCount} items added.`);
     return { success: true, count: importedCount };
   }
 }

@@ -224,8 +224,9 @@ export default function ProductsPage() {
                      method: 'POST',
                      body: formData
                    });
+                   const data = await res.json();
                    if (res.ok) {
-                     showToast('Import successful', 'success');
+                     showToast(`Import successful! ${data.count} items added.`, 'success');
                      fetchData();
                    } else {
                      throw new Error('Import failed');
