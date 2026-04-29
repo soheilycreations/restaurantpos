@@ -27,7 +27,7 @@ export default function RestaurantsPage() {
       const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
       const res = await fetch(`${apiUrl}/restaurant/all`);
       const data = await res.json();
-      setRestaurants(data);
+      setRestaurants(Array.isArray(data) ? data : []);
     } catch (err) {
       console.error('Failed to fetch restaurants:', err);
     } finally {
