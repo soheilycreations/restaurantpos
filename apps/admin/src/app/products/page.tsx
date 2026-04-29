@@ -22,6 +22,7 @@ export default function ProductsPage() {
   const { showToast } = useToast();
   
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isImporting, setIsImporting] = useState(false);
   const [editingProduct, setEditingProduct] = useState<any>(null);
   const [formData, setFormData] = useState({
     name: '',
@@ -218,6 +219,7 @@ export default function ProductsPage() {
                  formData.append('restaurantId', restaurantId);
 
                  try {
+                   setIsImporting(true);
                    showToast('Importing products...', 'info');
                    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
                    const res = await fetch(`${apiUrl}/import/excel`, {
@@ -229,15 +231,32 @@ export default function ProductsPage() {
                      showToast(`Import successful! ${data.count} items added.`, 'success');
                      fetchData();
                    } else {
-                     throw new Error('Import failed');
+                     throw new Error(data.message || 'Import failed');
                    }
-                 } catch (err) {
-                   showToast('Import failed', 'error');
+                 } catch (err: any) {
+                   showToast(err.message || 'Import failed', 'error');
+                 } finally {
+                   setIsImporting(false);
                  }
                }}
              />
           </div>
         </header>
+
+        {isImporting && (
+           <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/60 backdrop-blur-md animate-in fade-in duration-300">
+              <div className="bg-[#0b101a] border border-white/10 rounded-[2.5rem] p-12 flex flex-col items-center gap-6 shadow-2xl">
+                 <div className="relative">
+                    <div className="w-20 h-20 rounded-full border-4 border-primary/20 border-t-primary animate-spin" />
+                    <Database className="w-8 h-8 text-primary absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+                 </div>
+                 <div className="text-center">
+                    <h3 className="text-xl font-black text-white uppercase tracking-widest mb-2">Processing Catalog</h3>
+                    <p className="text-[10px] text-gray-500 font-black uppercase tracking-[0.2em]">Synchronizing data with secure node storage...</p>
+                 </div>
+              </div>
+           </div>
+        )}
 
         <div className="p-10 space-y-12 animate-premium-fade">
            {/* Top Filter Buttons */}
