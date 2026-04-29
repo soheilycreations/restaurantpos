@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { 
   Building2, Plus, Search, MapPin, Phone, Mail, 
   ExternalLink, Copy, CheckCircle2, ShieldCheck,
-  ChevronRight, Loader2, Store, Settings
+  ChevronRight, Loader2, Store, Settings, LayoutDashboard
 } from 'lucide-react';
 
 export default function RestaurantsPage() {
