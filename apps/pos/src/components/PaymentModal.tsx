@@ -6,7 +6,7 @@ import { ordersApi, tablesApi } from '../lib/api';
 import { generateLankaQRString } from '../lib/lankaqr';
 import { useNotify } from './NotificationProvider';
 
-export function PaymentModal() {
+export function PaymentModal({ socket }: { socket: any }) {
   const { 
     tableCarts, 
     tableDiscounts,

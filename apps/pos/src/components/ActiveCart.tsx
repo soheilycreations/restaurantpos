@@ -9,7 +9,7 @@ import { generateLankaQRString } from '../lib/lankaqr';
 import { useNotify } from './NotificationProvider';
 import { ordersApi } from '../lib/api';
 
-export function ActiveCart() {
+export function ActiveCart({ socket }: { socket: any }) {
   const { 
     tableCarts, 
     tableDiscounts,
