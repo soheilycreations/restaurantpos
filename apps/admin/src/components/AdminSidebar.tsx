@@ -37,8 +37,12 @@ export function AdminSidebar() {
     fetch(`${apiUrl}/restaurant`, {
       headers: { 'x-tenant-id': id }
     })
-    .then(res => res.json())
-    .then(data => setRestaurant(data));
+    .then(res => {
+      if (!res.ok) throw new Error('Not found');
+      return res.json();
+    })
+    .then(data => setRestaurant(data))
+    .catch(err => console.warn('Sidebar restaurant fetch failed', err));
   }, [pathname]); // Re-check when path changes
 
   return (
