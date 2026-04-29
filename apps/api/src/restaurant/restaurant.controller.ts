@@ -1,4 +1,4 @@
-import { Controller, Get, Patch, Body, UseGuards, Req, Post } from '@nestjs/common';
+import { Controller, Get, Patch, Body, UseGuards, Req, Post, Param } from '@nestjs/common';
 import { RestaurantService } from './restaurant.service';
 import { TenantGuard } from '../auth/tenant.guard';
 
@@ -25,6 +25,11 @@ export class RestaurantController {
   @Get('ping')
   ping() {
     return { status: 'ok', timestamp: new Date().toISOString() };
+  }
+
+  @Patch(':id')
+  updateById(@Param('id') id: string, @Body() data: any) {
+    return this.restaurantService.updateSettings(id, data);
   }
 
   @Patch()

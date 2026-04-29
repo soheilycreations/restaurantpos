@@ -11,13 +11,26 @@ import { PaymentModal } from '../components/PaymentModal';
 import { Moon, Sun, Search } from 'lucide-react';
 
 export default function POSDashboard() {
-  const restaurantId = process.env.NEXT_PUBLIC_RESTAURANT_ID || "16ae97cd-c992-4103-9e58-f7c0671cc29d";
+  const [restaurantId, setRestaurantId] = useState<string>("");
+  
+  useEffect(() => {
+    // Priority: Query Param > Env Var > Default
+    const params = new URLSearchParams(window.location.search);
+    const idFromUrl = params.get('restaurantId');
+    const idFromEnv = process.env.NEXT_PUBLIC_RESTAURANT_ID;
+    const defaultId = "16ae97cd-c992-4103-9e58-f7c0671cc29d";
+    
+    setRestaurantId(idFromUrl || idFromEnv || defaultId);
+  }, []);
+
   const socket = useSocket(restaurantId);
   const { paymentModalOpen } = usePOSStore();
   const [activeTab, setActiveTab] = useState('Menu');
   const [activeCategory, setActiveCategory] = useState<string>('All');
   const [searchQuery, setSearchQuery] = useState('');
   const [isDark, setIsDark] = useState(false);
+
+  if (!restaurantId) return null; // Wait for ID to be resolved
 
   // Persist preference
   useEffect(() => {
