@@ -10,7 +10,8 @@ export function useSocket(restaurantId: string) {
   
   useEffect(() => {
     // Connect to the NestJS Gateway
-    const socket = io('http://localhost:3001');
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+    const socket = io(apiUrl);
     socketRef.current = socket;
 
     socket.on('connect', () => {
